@@ -28,11 +28,6 @@ Docker環境でReact,Laravelを用いてSPA開発することをゴールとす�
 - Base image
   - [mysql/mysql-server](https://hub.docker.com/r/mysql/mysql-server):8.0
 
-### mailhog コンテナ
-
-- Base image
-  - [mailhog/mailhog](https://hub.docker.com/r/mailhog/mailhog)
-
 ## コミットルール
 コード修正は必ずブランチを切って対応
 </br>なお、コミット時、コミットメッセージには以下の接頭辞から対応するものをつけてコミットすること。
