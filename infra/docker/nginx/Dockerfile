@@ -1,11 +1,3 @@
-# FROM nginx:1.22
-
-# WORKDIR /data
-
-# ENV TZ=UTC
-
-# COPY ./infra/docker/nginx/*.conf /etc/nginx/conf.d/
-
 FROM node:14.2-alpine as node
 FROM nginx:1.18-alpine
 LABEL maintainer="ucan-lab <yes@u-can.pro>"
