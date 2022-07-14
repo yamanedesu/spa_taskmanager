@@ -1,6 +1,6 @@
 # SPA practice(2022/04-2022/07)
 ## 概要
-Docker環境でReact,LaravelをSPA開発をゴールとする。
+Docker環境でReact,Laravelを用いてSPA開発することをゴールとする。
 </br>Docker環境構築は以下を使用
 </br>https://github.com/ucan-lab/docker-laravel
 
