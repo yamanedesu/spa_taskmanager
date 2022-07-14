@@ -1,8 +1,8 @@
 # SPA practice(2022/04-2022/07)
 ## 概要
 Docker環境でReact,LaravelをSPA開発をゴールとする。
-Docker環境構築は以下を使用
-https://github.com/ucan-lab/docker-laravel
+</br>Docker環境構築は以下を使用
+</br>https://github.com/ucan-lab/docker-laravel
 
 ## コンテナ構成
 
@@ -35,7 +35,7 @@ https://github.com/ucan-lab/docker-laravel
 
 ## コミットルール
 コード修正は必ずブランチを切って対応
-なお、コミット時、コミットメッセージには以下の接頭辞から対応するものをつけてコミットすること。
+</br>なお、コミット時、コミットメッセージには以下の接頭辞から対応するものをつけてコミットすること。
 
 ```bash
 追加:（機能・ファイルなどを）追加する
