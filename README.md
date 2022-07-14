@@ -4,24 +4,6 @@ Docker環境でReact,LaravelをSPA開発をゴールとする。
 Docker環境構築は以下を使用
 https://github.com/ucan-lab/docker-laravel
 
-## 使用方法
-
-1. Click [Use this template](https://github.com/ucan-lab/docker-laravel/generate)
-2. Git clone & change directory
-3. Execute the following command
-
-```bash
-$ make create-project # Install the latest Laravel project
-$ make install-recommend-packages # Optional
-```
-
-http://localhost
-
-## ヒント
-
-- Read this [Makefile](https://github.com/ucan-lab/docker-laravel/blob/main/Makefile).
-- Read this [Wiki](https://github.com/ucan-lab/docker-laravel/wiki).
-
 ## コンテナ構成
 
 ```bash
@@ -50,3 +32,24 @@ http://localhost
 
 - Base image
   - [mailhog/mailhog](https://hub.docker.com/r/mailhog/mailhog)
+
+## コミットルール
+コード修正は必ずブランチを切って対応
+なお、コミット時、コミットメッセージには以下の接頭辞から対応するものをつけてコミットすること。
+
+```bash
+追加:（機能・ファイルなどを）追加する
+修正:（コードなどを）修正する
+改善:（コードなどを）改善する
+更新:（パッケージやドキュメントなどを）更新する
+削除:（ファイル名やコードを）除去する
+改名:（ファイル名を）変更する
+移動:（AをBに）移動する
+交換:（AをBに）変更する
+```
+
+テンプレート
+```bash
+【更新】README.md内容更新
+```
+
