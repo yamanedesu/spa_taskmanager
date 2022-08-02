@@ -83,7 +83,7 @@ function Home() {
         rows.push({
             name: post.name,
             content: post.content,
-            editBtn: <Button color="secondary" variant="contained">編集</Button>,
+            editBtn: <Button color="secondary" variant="contained" key={post.id} href={`/post/edit/${post.id}`}>編集</Button>, //追加
             deleteBtn: <Button color="primary" variant="contained">完了</Button>,
         })
     );
