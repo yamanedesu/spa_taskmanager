@@ -14,19 +14,6 @@ const useStyles = makeStyles((theme) => createStyles({
 
 //ヘッダーのコンテンツ用の配列定義
 const headerList = ['名前', 'タスク内容', '編集', '完了'];
-// let rows = [
-//     {
-//         name: "山内",
-//         content: "練習",
-//         editBtn: <Button color="secondary" variant="contained">編集</Button>,
-//         deleteBtn: <Button color="primary" variant="contained">完了</Button>,
-//     }, {
-//         name: "SALTO",
-//         content: "出社",
-//         editBtn: <Button color="secondary" variant="contained">編集</Button>,
-//         deleteBtn: <Button color="primary" variant="contained">完了</Button>,
-//     },
-// ];
 
 function Home() {
     //定義したスタイルを利用するための設定
