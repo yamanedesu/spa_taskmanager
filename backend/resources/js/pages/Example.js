@@ -10,8 +10,8 @@ function Example() {
                     <div className="card">
                         <div className="card-header">SPA Setting</div>
 
-                        <div className="card-body">Complete!</div>
-                        <Button color='primary' variant='contained'>Test Button</Button>
+                        <div className="card-body">Page下Complete!</div>
+                        <Button color='primary' variant='contained'>Homeに遷移</Button>
                     </div>
                 </div>
             </div>
@@ -21,6 +21,6 @@ function Example() {
 
 export default Example;
 
-if (document.getElementById('app')) {
-    ReactDOM.render(<Example />, document.getElementById('app'));
-}
+// if (document.getElementById('app')) {
+//     ReactDOM.render(<Example />, document.getElementById('app'));
+// }
