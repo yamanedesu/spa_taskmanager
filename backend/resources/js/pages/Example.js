@@ -11,7 +11,7 @@ function Example() {
                         <div className="card-header">SPA Setting</div>
 
                         <div className="card-body">Page下Complete!</div>
-                        <Button color='primary' variant='contained'>Homeに遷移</Button>
+                        <Button color='primary' variant='contained' href={`/`}>Homeに遷移</Button>
                     </div>
                 </div>
             </div>
