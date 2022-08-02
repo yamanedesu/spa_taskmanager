@@ -114,7 +114,6 @@ function Home() {
                             <PostFrom data={formData} btnFunc={createPost} inputChange={inputChange} />
                         </Card>
                         <Card className={classes.card}>
-                            {/* テーブル部分の定義 */}
                             <MainTable headerList={headerList} rows={rows} />
                         </Card>
                     </div>
