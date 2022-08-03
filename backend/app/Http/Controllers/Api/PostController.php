@@ -24,14 +24,12 @@ class PostController extends Controller
         return response()->json($post, 200);
     }
 
-    // 編集画面に遷移するためのアクション
     public function edit(Request $request)
     {
         $post = Post::find($request->id);
         return $post;
     }
 
-   //データを更新するためのアクション
     public function update(Request $request)
     {
         $post = Post::find($request->id);
